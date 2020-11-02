@@ -1,0 +1,9 @@
+telegram:
+  token: 
+  debug: false
+
+database:
+  host: 
+  dbname: tgbot
+  user: root
+  pass: 
