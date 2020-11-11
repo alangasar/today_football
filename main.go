@@ -67,7 +67,7 @@ func main() {
 		for range time.Tick(time.Minute) {
 			currentTime := time.Now()
 			//отправить сообщение в определенное время
-			if currentTime.Format("15:4") == "09:00" {
+			if currentTime.Format("15:04") == "09:05" {
 				message := getTodayMatch(db)
 				msg := tgbotapi.NewMessageToChannel("@today_football", message[0])
 
